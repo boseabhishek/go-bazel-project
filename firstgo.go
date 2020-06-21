@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	output := second.AddSmile("Abhi")
+	output := second.LearnBazel("Abhi")
 	fmt.Println(output)
 }
