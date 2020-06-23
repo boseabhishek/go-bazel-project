@@ -5,7 +5,6 @@ go_binary(
     name = "firstgo",
     srcs =["firstgo.go"],
     deps = ["//second:secondgo"],
-   
 )
 
 go_image(

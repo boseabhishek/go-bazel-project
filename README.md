@@ -1,5 +1,8 @@
 # go-bazel-project
 
+### bazel query
+
+> 
 
 ### build docker image
 
