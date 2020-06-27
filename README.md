@@ -2,7 +2,7 @@
 
 Simple Golang application built using [Bazel](https://bazel.build/).
 
-### resources
+## Resources
 
 - official bazel documentation 
 - how to build some [other bazel projects](https://docs.bazel.build/versions/3.3.0/bazel-overview.html#tutorials)
