@@ -43,3 +43,4 @@ Simple Golang application built using [Bazel](https://bazel.build/).
 
 - [Kubernetes](https://github.com/kubernetes/kubernetes)
 - [Tensorflow](https://github.com/tensorflow/tensorflow)
+- [Find many more here](https://github.com/bazelbuild/bazel/wiki/Bazel-Users)
