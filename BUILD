@@ -9,6 +9,7 @@ go_binary(
 
 go_image(
     name = "firstgo_image",
-    srcs = ["firstgo.go"],
-    deps = ["//second:secondgo"],
+    embed = [":firstgo"],
+    pure = "on",
+    visibility = ["//visibility:public"],
 )
