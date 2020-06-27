@@ -5,10 +5,10 @@ import (
 )
 
 func TestLearnBazel(t *testing.T) {
-	got := LearnBazel("Abhi")
 	want := "Hello Abhi, so are you ready to learn bazel?"
+	got := LearnBazel("Abhi")
 
-    if got != want {
-       t.Errorf("Test failed, got: %s, want: %s", got, want)
-    }
+	if want != got {
+		t.Errorf("Test failed, got: %s, want: %s", got, want)
+	}
 }
